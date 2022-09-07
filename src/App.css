@@ -1,3 +1,16 @@
+:background {
+  --main-color:rgb(215, 132, 17);;
+}
+
 .App {
   text-align: center;
+  background-color: var(--main-color)
+}
+
+.Selfie{
+  width: 300px; 
+    height: 300px; 
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 50%;
 }
