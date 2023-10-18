@@ -1,16 +1,17 @@
 :background {
-  --main-color:rgb(215, 132, 17);;
+  --main-color:rgb(17, 156, 215);;
 }
 
 .App {
+  min-height: 100vh;
   text-align: center;
-  background-color: var(--main-color)
+  background-color: rgb(151, 196, 214);
 }
+
 
 .Selfie{
   width: 300px; 
     height: 300px; 
     object-fit: cover;
     border: 1px solid black;
-    border-radius: 50%;
 }
